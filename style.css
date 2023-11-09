@@ -1,0 +1,63 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%);
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    background: var(--Light-gray);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.qr-component {
+    width: 320px;
+    background: var(--White);
+    border-radius: 10px;
+}
+
+.qr-component .qr-image {
+    padding: 20px 20px 0px 20px;
+}
+
+.qr-component .qr-image img {
+    border-radius: 10px;
+}
+
+.qr-component .qr-content {
+    padding: 20px 30px;
+    text-align: center;
+}
+
+.qr-component .qr-content h3 {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--Dark-blue);
+    margin-bottom: 15px;
+}
+
+.qr-component .qr-content p {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--Grayish-blue);
+    margin-bottom: 10px;
+}
